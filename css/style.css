@@ -1,0 +1,130 @@
+/*
+File: style.css
+GUI Assignment: Creating A Multiplication Web App
+Mildred Kumah, UMass Lowell Computer Science, mildred_kumah@student.uml.edu
+Copyright (c) 2023 by Mildred All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Defining the background image*/
+.first {
+    min-height: 100em;
+    width: 100%;
+    background-image: linear-gradient(#000080,black);
+    background-position: center;
+    background-size: 200px;
+    position: relative;
+    overflow: auto;
+}
+
+
+
+    /*Defining the heading "MILDRED LOVES TO ROCK"*/
+    .first h2 {
+        color: #fff;
+        text-decoration: none;
+        font-size: 50px;
+        padding: 2% 35%;
+        position: relative;
+        text-align: center;
+    }
+
+
+/*defining the table*/
+.fav-table {
+    border-collapse: collapse;
+    margin: 3% 35%;
+    font-size: 1.0em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 35px #00FFFF;
+    color: #fff;
+}
+
+    .fav-table thead tr {
+        background-color: black;
+        color: #ffffff;
+        text-align: left;
+    }
+
+    .fav-table tbody tr td input, .fav-table tbody tr td input {
+        background-color: white;
+        border-style: ridge;
+        border-color: #808080;
+        border-width: medium;
+        text-align: center;
+        font-size: 1.0em;
+    }
+
+button {
+    font-size: 2.0em;
+    margin: 3% 55%;
+    box-shadow: 0 0 35px #00FFFF;
+}
+
+
+.fav-table th,
+.fav-table td {
+    padding: 12px 15px;
+}
+
+.fav-table tbody tr {
+    border-bottom: 1px solid black;
+}
+
+    .fav-table tbody tr:nth-of-type(even) {
+        background-color: transparent;
+    }
+
+    .fav-table tbody tr:last-of-type {
+        border-bottom: 2px solid black;
+    }
+
+#output {
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 1.0em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 35px #00FFFF;
+    color: #fff;
+}
+
+.scroll {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    background-color: transparent;
+}
+
+#output th {
+    background-color: black;
+    color: #ffffff;
+    text-align: left;
+}
+
+#output tr {
+    border-bottom: 1px solid black;
+}
+
+#output th,
+#output td {
+    padding: 12px 15px;
+}
+
+#output tr:nth-of-type(even) {
+    background-color: transparent;
+}
+
+#output tr:last-of-type {
+    border-bottom: 2px solid black;
+}
